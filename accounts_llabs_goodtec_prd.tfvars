@@ -7,7 +7,7 @@ aws_region     = "us-east-1"
 aws_profile    = "default"
 aws_account_id = "816069124394"
 project_name   = "llabs_aws"
-account_name   = "localiza-labs-prd"
+account_name   = "llabs-prd"
 
 #####################################
 # IAM Password Policies Variables
