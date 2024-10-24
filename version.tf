@@ -9,7 +9,7 @@ terraform {
 
   backend "s3" {
     bucket         = "s3-aws-llabs-trf-state-prd"
-    key            = "ConfigAwsAccount/localiza-labs-prd/terraform.tfstate"
+    key            = "ConfigAwsAccount/llabs-prd/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "dyndb-aws-llabs-trf-state-prd"
     encrypt        = true
